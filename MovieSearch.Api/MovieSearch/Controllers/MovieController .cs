@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using MovieSearch.Application.Interface;
 using MovieSearch.Application.ServiceImplementation;
 using MovieSearch.Domain.Entities;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MovieSearch.Controllers
 {
@@ -11,12 +9,12 @@ namespace MovieSearch.Controllers
     [ApiController]
     public class MovieController : ControllerBase
     {
-        private readonly MovieService _movieService;
+        private readonly IMovieService _movieService;
 
         // Assuming you want to store search history in the controller
         private static List<string> SearchHistory = new List<string>();
 
-        public MovieController(MovieService movieService)
+        public MovieController(IMovieService movieService)
         {
             _movieService = movieService;
         }
@@ -26,20 +24,20 @@ namespace MovieSearch.Controllers
         {
             var searchResults = await _movieService.SearchMovieByTitleAsync(title);
 
-            if (searchResults != null && searchResults.Any())
+            if (searchResults != null && searchResults.Data != null && searchResults.Data.Any())
             {
-                // Save search history
                 SearchHistory.Insert(0, title);
                 if (SearchHistory.Count > 5)
                     SearchHistory.RemoveAt(5);
 
-                return Ok(searchResults);
+                return Ok(searchResults.Data);
             }
             else
             {
                 return NotFound("No results found");
             }
         }
+
 
         [HttpGet("history")]
         public ActionResult<IEnumerable<string>> GetSearchHistory()

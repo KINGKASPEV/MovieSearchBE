@@ -8,6 +8,7 @@ namespace MovieSearch.ServiceExtension
     {
         public static void AddDependencies(this IServiceCollection services, IConfiguration config)
         {
+            services.AddHttpClient();
             services.AddScoped<IMovieService, MovieService>();
             services.Configure<AppSettings>(config.GetSection("AppSettings"));
         }
