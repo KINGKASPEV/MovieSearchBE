@@ -55,7 +55,7 @@ namespace MovieSearchTesting.ServiceImplementation
 
             // Additional assertion to check the content
             var movieResults = Assert.IsAssignableFrom<IEnumerable<MovieResult>>(result.Data);
-            Assert.Equal(2, movieResults.Count()); // Adjust the count based on your expected data
+            Assert.Equal(2, movieResults.Count()); 
             Assert.Contains(movieResults, m => m.Title == "Fake Movie 1");
             Assert.Contains(movieResults, m => m.Title == "Fake Movie 2");
         }
