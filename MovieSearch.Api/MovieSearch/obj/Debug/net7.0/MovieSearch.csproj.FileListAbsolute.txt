@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.AssemblyInfo.cs
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch\obj\Debug\net7.0\MovieSearch.MvcApplicationPartsAssemblyInfo.cache

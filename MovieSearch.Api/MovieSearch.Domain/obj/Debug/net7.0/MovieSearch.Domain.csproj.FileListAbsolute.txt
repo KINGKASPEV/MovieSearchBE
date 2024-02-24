@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\bin\Debug\net7.0\MovieSearch.Domain.deps.json
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\bin\Debug\net7.0\MovieSearch.Domain.dll
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\bin\Debug\net7.0\MovieSearch.Domain.pdb
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.dll
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\refint\MovieSearch.Domain.dll
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\MovieSearch.Domain.pdb
+C:\Users\user\Desktop\My-project\MovieSearch\MovieSearch.Api\MovieSearch.Domain\obj\Debug\net7.0\ref\MovieSearch.Domain.dll
