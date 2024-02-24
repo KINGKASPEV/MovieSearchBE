@@ -11,7 +11,6 @@ namespace MovieSearch.Controllers
     {
         private readonly IMovieService _movieService;
 
-        // Assuming you want to store search history in the controller
         private static List<string> SearchHistory = new List<string>();
 
         public MovieController(IMovieService movieService)
