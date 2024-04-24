@@ -158,6 +158,9 @@
             "projectReferences": {
               "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Application\\MovieSearch.Application.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Application\\MovieSearch.Application.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Domain\\MovieSearch.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Domain\\MovieSearch.Domain.csproj"
               }
             }
           }

@@ -1288,6 +1288,7 @@
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.16",
       "MovieSearch.Application >= 1.0.0",
+      "MovieSearch.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.Configuration.ConfigurationManager >= 7.0.0"
     ]
@@ -1321,6 +1322,9 @@
           "projectReferences": {
             "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Application\\MovieSearch.Application.csproj": {
               "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Application\\MovieSearch.Application.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Domain\\MovieSearch.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\MovieSearch\\MovieSearchBE\\MovieSearch.Api\\MovieSearch.Domain\\MovieSearch.Domain.csproj"
             }
           }
         }

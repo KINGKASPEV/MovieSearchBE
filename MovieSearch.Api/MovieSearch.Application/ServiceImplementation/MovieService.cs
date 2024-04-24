@@ -3,6 +3,7 @@ using MovieSearch.Application.Interface;
 using MovieSearch.Domain;
 using MovieSearch.Domain.Entities;
 using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace MovieSearch.Application.ServiceImplementation
 {

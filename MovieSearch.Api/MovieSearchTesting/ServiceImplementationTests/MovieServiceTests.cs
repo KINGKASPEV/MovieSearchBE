@@ -23,7 +23,6 @@ namespace MovieSearchTesting.ServiceImplementation
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
 
-
             var appSettings = configuration.GetSection("AppSettings").Get<AppSettings>();
             var appSettingsMock = new Mock<IOptions<AppSettings>>();
             appSettingsMock.Setup(_ => _.Value).Returns(appSettings);
